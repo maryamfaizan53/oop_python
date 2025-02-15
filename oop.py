@@ -1,39 +1,39 @@
 #object oriented programming
 #we use oop to update any object
-# class MaryamLove:
-#     def __init__(self,cloths:str,makeup:str,sheosstock:int):
-#         self.cloths = cloths
-#         self.makeup = makeup
-#         self.sheotocks = sheosstock
-#     def grooming(self):  
-#         pass 
-# MaryamLove("Yes","Yes",50)
-# print(MaryamLove)
-# MaryamLove.grooming
-# class Teacher():
-#     #class variables
-#     counter:int = 4
+class MaryamLove:
+    def __init__(self,cloths:str,makeup:str,sheosstock:int):
+        self.cloths = cloths
+        self.makeup = makeup
+        self.sheotocks = sheosstock
+    def grooming(self):  
+        pass 
+MaryamLove("Yes","Yes",50)
+print(MaryamLove)
+MaryamLove.grooming
+class Teacher():
+    #class variables
+    counter:int = 4
     
-#     def __init__(self, teacher_id: int, teacher_name: str):
-#         self.name = teacher_name
-#         self.id = teacher_id
-#         self.Org_name = "Unknown"
+    def __init__(self, teacher_id: int, teacher_name: str):
+        self.name = teacher_name
+        self.id = teacher_id
+        self.Org_name = "Unknown"
   
-#     def speak(self, words: str):
-#         print(f'{self.name} is speaking {words}')
+    def speak(self, words: str):
+        print(f'{self.name} is speaking {words}')
       
-#     def teaching(self, subject: str):
-#         print(f'{self.name} is teaching {subject}') 
+    def teaching(self, subject: str):
+        print(f'{self.name} is teaching {subject}') 
       
-# teacher1:Teacher = Teacher(1,"Maryam") 
-# teacher2:Teacher = Teacher(2,"Safa") 
-# teacher3:Teacher = Teacher(3,"Huda")  
+teacher1:Teacher = Teacher(1,"Maryam") 
+teacher2:Teacher = Teacher(2,"Safa") 
+teacher3:Teacher = Teacher(3,"Huda")  
 
-# print(teacher1.name)   
+print(teacher1.name)   
    
-# teacher1.speak("Truth")
-# teacher2.teaching("Maths")
-# print(teacher1.counter)
+teacher1.speak("Truth")
+teacher2.teaching("Maths")
+print(teacher1.counter)
 #Inheritance
 #syntex class ChildClass(Parents):pass
 class Parents():
